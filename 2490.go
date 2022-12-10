@@ -8,8 +8,10 @@ import (
 func main() {
 	sentence := "leetcode exercises sound delightful"
 	fmt.Println(isCircularSentence(sentence))
+
 	sentence = "eetcode"
 	fmt.Println(isCircularSentence(sentence))
+
 	sentence = "Leetcode is cool"
 	fmt.Println(isCircularSentence(sentence))
 }
