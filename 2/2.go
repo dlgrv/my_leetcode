@@ -29,7 +29,6 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	sum := 0
 
 	for !(l1 == nil && l2 == nil && sum == 0) {
-
 		val1 := 0
 		val2 := 0
 
@@ -48,8 +47,8 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		tmp = tmp.Next
 
 		sum = sum / 10
-
 	}
+
 	return res.Next
 }
 
