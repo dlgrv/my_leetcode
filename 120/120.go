@@ -23,7 +23,7 @@ func minimumTotal(triangle [][]int) int {
 // 	return min(a, b)
 // }
 
-// // Time Limit Exceeded
+// // Time Limit Exceeded fuck leetcode
 func minimumTotalRecur(triangle [][]int, i int) int {
 	if len(triangle) == 1 {
 		return triangle[0][i]
