@@ -41,4 +41,3 @@ func min(num1, num2 int) int {
 	}
 	return num2
 }
-д
