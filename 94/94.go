@@ -14,10 +14,10 @@ type Result struct {
 
 func main() {
 	a := &TreeNode{2, &TreeNode{5, nil, nil}, &TreeNode{2, nil, nil}}
-	fmt.Println(preorderTraversal(a))
+	fmt.Println(inorderTraversal(a))
 }
 
-func preorderTraversal(root *TreeNode) []int {
+func inorderTraversal(root *TreeNode) []int {
 	res := Result{}
 	res.traversal(root)
 	return res.List
